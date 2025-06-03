@@ -7,7 +7,11 @@ const Page = () => {
             <button className='cursor-pointer'>
                 <Icon icon={'material-symbols:menu-rounded'} color={'black'} />
             </button>
-            <h1 className='text-bank2 font-bold text-2xl'>Bomba Sabor</h1>
+            <div className=' flex justify-center items-center gap-2'>
+                <img src="logo.png" alt="logo del restaurante" width={40} height={40} />
+                <h1 className='text-black font-bold text-2xl'>Bomba Sabor</h1>
+            </div>
+
             <button>
                 <Icon icon={'material-symbols:shopping-cart-outline'} color={'#FF5A5F'} />
             </button>
