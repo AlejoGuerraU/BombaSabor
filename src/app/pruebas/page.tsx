@@ -1,12 +1,11 @@
 import React from 'react'
 import Button from '@/components/atoms/buttons/page'
-import Icon from '@/components/atoms/icon/page'
+import Navbar from '@/components/organismos/Navbar/page'
 
 const Page = () => {
   return (
-    <div>
-    <Button />
-    <Icon icon={'material-symbols:10k'} />
+    <div className=' flex flex-col justify-center items-center gap-0.5 '>
+    <Navbar />
     </div>
   )
 }
