@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '@/components/atoms/buttons/page'
 import Navbar from '@/components/organismos/Navbar/page'
 
 const Page = () => {
