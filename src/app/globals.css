@@ -8,6 +8,10 @@
 @theme {
   --color-bank1: #FFF8E8;
   --color-bank2: #FF5A5F;
+  --color-bank3: #F9C74F;
+  --color-bank4: #7FB069;
+  --color-bank5: #333333;
+  --color-bank6: #72A0C1;
 }
 
 @theme inline {
