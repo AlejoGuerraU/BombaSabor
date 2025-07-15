@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { SmallText } from '@/components/atoms/heroTitles/page'
 
 interface CategoryCardProps {
@@ -35,5 +36,5 @@ const CategoryCard = ({ image, label, href, onClick }: CategoryCardProps) => {
         </button>
     )
 }
-
+export default CategoryCard 
 
