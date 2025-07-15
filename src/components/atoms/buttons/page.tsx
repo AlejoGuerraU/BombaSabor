@@ -13,16 +13,14 @@ interface Indexprops {
 
 const Page = ({ title, link, bgColor, icon, iconColor }: Indexprops) => {
   return (
-    <div className={`flex items-center h-10  rounded-2xl  text-black  shadow-2xl font-bold cursor-pointer ${bgColor}`}>
-      <a href={link}></a>
-      <div className=' flex justify-start items-center'>
-        <Icon icon={icon} className={`fill-current ${iconColor}`} />
-      </div>
-      <div className='flex justify-center'>
-        {title}
-      </div>
-
-    </div>
+    <a
+      href={link}
+      className={`flex items-center gap-2 px-4 h-10 rounded-2xl font-bold shadow-2xl cursor-pointer transition-transform hover:scale-105 ${bgColor}`}
+      title={title}
+    >
+      <Icon icon={icon} className={`w-5 h-5 ${iconColor}`} />
+      <span>{title}</span>
+    </a>
 
   )
 }

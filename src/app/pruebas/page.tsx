@@ -2,6 +2,7 @@
 import React, {useState} from 'react'
 import Navbar from '@/components/organismos/Navbar/page'
 import Sidebar from '@/components/organismos/Sidebar/page'
+import SimpleCard from "@/components/atoms/simpleCard/page"
 
 const Page = () => {
   const[sidebarOpen, setSideberOpen]= useState(false)
@@ -13,6 +14,7 @@ const Page = () => {
       <div className=' flex flex-col justify-start items-start'>
         <Sidebar isOpen={sidebarOpen} onClose={() =>setSideberOpen(false)} />
       </div>
+      <SimpleCard />
     </div>
   )
 }
