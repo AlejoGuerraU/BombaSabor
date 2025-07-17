@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react'
 
 interface IconProps {
   icon: string
-  className?: string // usamos className en lugar de color
+  className?: string 
 }
 
 const Page = ({ icon, className = '' }: IconProps) => {
