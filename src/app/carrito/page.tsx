@@ -39,7 +39,7 @@ const Page = () => {
             />
             <div className="flex flex-col gap-2">
               <h3 className="font-bold">JUGO</h3>
-              <h3>JUGO DE MORA EN AGU CON 50 GR DE AZUCAR AÑADIDO</h3>
+              <h3>JUGO DE MORA EN AGUA CON 50 GR DE AZUCAR AÑADIDO</h3>
               <div className="flex flex-row gap-2 items-center">
                 <div className=" text-white">
                   <Buttons
@@ -66,19 +66,19 @@ const Page = () => {
                     </div>
                   </div>
                 </div>
-                <h3 className="font-bold ml-8">${5000 * quantity}</h3>
+                <h3 className="font-bold ml-8">${7000 * quantity}</h3>
               </div>
             </div>
           </div>
           <div className="flex flex-row gap-5 m-5 h-40 border-2 items-center border-gray-400 shadow-md">
             <img
-              src="/jugo.png"
+              src="/cafe.png"
               alt=""
               className="h-30 w-40 ml-5 rounded-3xl"
             />
             <div className="flex flex-col gap-2">
-              <h3 className="font-bold">JUGO</h3>
-              <h3>JUGO DE MORA EN AGU CON 50 GR DE AZUCAR AÑADIDO</h3>
+              <h3 className="font-bold">CAFE</h3>
+              <h3>CAFE CON CUALQUIER INGREDIENTE 80 ML</h3>
               <div className="flex flex-row gap-2 items-center">
                 <div className=" text-white">
                   <Buttons
@@ -111,13 +111,13 @@ const Page = () => {
           </div>
           <div className="flex flex-row gap-5 m-5 h-40 border-2 items-center border-gray-400 shadow-md">
             <img
-              src="/jugo.png"
+              src="/limonada.png"
               alt=""
               className="h-30 w-40 ml-5 rounded-3xl"
             />
             <div className="flex flex-col gap-2">
-              <h3 className="font-bold">JUGO</h3>
-              <h3>JUGO DE MORA EN AGU CON 50 GR DE AZUCAR AÑADIDO</h3>
+              <h3 className="font-bold">LIMONADA</h3>
+              <h3>LIMONADA DE CUALQUIER SABOR CON 50 GR DE AZUCAR AÑADIDA</h3>
               <div className="flex flex-row gap-2 items-center">
                 <div className=" text-white">
                   <Buttons
@@ -144,7 +144,7 @@ const Page = () => {
                     </div>
                   </div>
                 </div>
-                <h3 className="font-bold ml-8">${5000 * quantity2}</h3>
+                <h3 className="font-bold ml-8">${6000 * quantity2}</h3>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@ const Page = () => {
               <div className="flex flex-col gap-2 mt-5">
                 <div className="flex flex-row gap-5">
                   <h3>Producto 1</h3>
-                  <p className="font-bold">${5000 * quantity}</p>
+                  <p className="font-bold">${7000 * quantity}</p>
                 </div>
                 <div className="flex flex-row gap-5">
                   <h3>Producto 2</h3>
@@ -167,13 +167,13 @@ const Page = () => {
                 </div>
                 <div className="flex flex-row gap-5">
                   <h3>Producto 3</h3>
-                  <p className="font-bold">${5000 * quantity2}</p>
+                  <p className="font-bold">${6000 * quantity2}</p>
                 </div>
               </div>
               <div className="flex flex-row gap-27 mt-3">
                 <h3 className="font-bold">Total</h3>
                 <p className="font-bold">
-                  ${5000 * (quantity + quantity1 + quantity2)}
+                  ${(5000 * quantity1) + (7000 * quantity) + (6000 * quantity2)}
                 </p>
               </div>
             </div>
