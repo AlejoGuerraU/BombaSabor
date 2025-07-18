@@ -43,8 +43,59 @@ const Page = () => {
             </div>
           </Basecard >
         </div>
-        
+
+        <div className=' flex flex-col justify-center '>
+          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
+            <SmallText text={'Hamburguesa + papas + Cocacolar'} />
+            <div className=' flex flex-row justify-around items-center font-bold'>
+              <SmallText text={'$25000'} />
+              <div className=' w-25'>
+                <Buttons title={'Pedir'} link={'/carrito'} icon={''} bgColor='bg-bank4' />
+              </div>
+            </div>
+          </Basecard >
+        </div>     
       </div>
+
+      <div className=' flex flex-row justify-around items-center mt-10'>
+        <div className=' flex flex-col justify-center '>
+          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
+            <SmallText text={'Hamburguesa + papas + Cocacolar'} />
+            <div className=' flex flex-row justify-around items-center font-bold'>
+              <SmallText text={'$25000'} />
+              <div className=' w-25'>
+                <Buttons title={'Pedir'} link={'/carrito'} icon={''} bgColor='bg-bank4' />
+              </div>
+            </div>
+          </Basecard >
+        </div>
+
+
+        <div className=' flex flex-col justify-center '>
+          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
+            <SmallText text={'Hamburguesa + papas + Cocacolar'} />
+            <div className=' flex flex-row justify-around items-center font-bold'>
+              <SmallText text={'$25000'} />
+              <div className=' w-25'>
+                <Buttons title={'Pedir'} link={'/carrito'} icon={''} bgColor='bg-bank4' />
+              </div>
+            </div>
+          </Basecard >
+        </div>
+
+        <div className=' flex flex-col justify-center '>
+          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
+            <SmallText text={'Hamburguesa + papas + Cocacolar'} />
+            <div className=' flex flex-row justify-around items-center font-bold'>
+              <SmallText text={'$25000'} />
+              <div className=' w-25'>
+                <Buttons title={'Pedir'} link={'/carrito'} icon={''} bgColor='bg-bank4' />
+              </div>
+            </div>
+          </Basecard >
+        </div>     
+      </div>
+      
     </div>
   )
 }

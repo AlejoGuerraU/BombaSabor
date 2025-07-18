@@ -18,7 +18,7 @@ const Page = ({ isOpen, onClose }: sideProps) => {
           className="p-2 rounded-full hover:bg-amber-200 transition-colors"
           aria-label="Cerrar menú"
         >
-          <Icon icon="material-symbols:close-rounded" className="text-black w-6 h-6" />
+          <Icon icon="material-symbols:close-rounded" className="text-black w-6 h-6 transition-transform hover:scale-105" />
         </button>
       </div>
 

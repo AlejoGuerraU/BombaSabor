@@ -46,7 +46,7 @@ export function LoginForm({
                                 <Input id="password" type="password" required />
                             </div>
                             <Button type="submit" className="w-full">
-                                <a href="/pruebas">
+                                <a href="/categorias">
                                     Login
                                 </a>
 

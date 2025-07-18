@@ -10,7 +10,7 @@ const Page = ({ onMenuClick }: openSidebar) => {
         <div className='relative z-40 flex justify-around items-center h-15 w-full bg-bank1'>
 
             <button className='cursor-pointer' onClick={onMenuClick}>
-                <Icon icon={'material-symbols:menu-rounded'} className='text-black' />
+                <Icon icon={'material-symbols:menu-rounded'} className='text-black transition-transform hover:scale-105' />
             </button>
 
             <div className=' flex justify-center items-center gap-2'>
@@ -20,7 +20,7 @@ const Page = ({ onMenuClick }: openSidebar) => {
 
             <button className='cursor-pointer' >
                 <a href="/carrito">
-                    <Icon icon={'material-symbols:shopping-cart-outline'} className='text-[#FF5A5F]' />
+                    <Icon icon={'material-symbols:shopping-cart-outline'} className='text-[#FF5A5F] transition-transform hover:scale-120' />
                 </a>
             </button>
 
