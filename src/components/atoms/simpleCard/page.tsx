@@ -1,13 +1,22 @@
-import React from "react"
-import { SmallText } from "../heroTitles/page"
-import Buttons from '@/components/atoms/buttons/page'
+import React from "react";
+import { SmallText } from "../heroTitles/page";
+import Buttons from "@/components/atoms/buttons/page";
 
-interface CardDetailProps {
-  category: string
-  onClose: () => void
+interface Product {
+  label: string;
+  image: string;
+  description: string;
+  price: string;
 }
 
-const Page = ({ category, onClose }: CardDetailProps) => {
+interface CardDetailProps {
+  product: Product;
+  onClose: () => void;
+}
+
+const CardDetail = ({ product, onClose }: CardDetailProps) => {
+  if (!product) return null;
+
   return (
     <div className="bg-white p-6 rounded-2xl w-96 shadow-2xl relative">
       <button
@@ -19,20 +28,29 @@ const Page = ({ category, onClose }: CardDetailProps) => {
       </button>
 
       <div className="mb-4">
-        <img src="/jugo.png" alt={category} className="rounded-xl w-full h-48 object-cover" />
+        <img
+          src={product.image}
+          alt={product.label}
+          className="rounded-xl w-full h-48 object-cover"
+        />
       </div>
 
       <div className="flex flex-col gap-4">
         <div className="font-bold">
-          <SmallText text="Jugo con fruta 100% natural con 50 gr de azúcares añadidos" />
+          <SmallText text={product.description} />
         </div>
         <div className="font-bold flex flex-row justify-between items-center">
-          <SmallText text="$5000" />
-          <Buttons title={"Añadir"} link={"/carrito"} icon={""} bgColor="bg-bank4" />
+          <SmallText text={product.price} />
+          <Buttons
+            title={"Añadir"}
+            link={"/carrito"}
+            icon={""}
+            bgColor="bg-bank4"
+          />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Page
+export default CardDetail;

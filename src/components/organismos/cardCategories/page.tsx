@@ -8,7 +8,7 @@ interface CategoryCardProps {
     href?: string
     onClick?: () => void
 }
-const CategoryCard = ({ image, label, href, onClick }: CategoryCardProps) => {
+const Page = ({ image, label, href, onClick }: CategoryCardProps) => {
     if (href && onClick) {
         console.warn("CategoryCard: No se recomienda usar href y onClick al mismo tiempo.")
     }
@@ -36,5 +36,5 @@ const CategoryCard = ({ image, label, href, onClick }: CategoryCardProps) => {
         </button>
     )
 }
-export default CategoryCard 
+export default Page 
 

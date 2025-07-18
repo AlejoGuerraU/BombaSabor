@@ -24,12 +24,12 @@ const Page = () => {
                 <div className=' flex flex-row justify-around items-center'>
                     <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'/menu/bebidas'} />
                     <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'/menu/bebidas'} />
-                    <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'#'} />
+                    <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'/menu/bebidas'} />
                 </div>
                 <div className=' flex flex-row justify-around items-center'>
-                    <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'#'} />
-                    <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'#'} />
-                    <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'#'} />
+                    <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'/menu/bebidas'} />
+                    <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'/menu/bebidas'} />
+                    <CardCategories image={'/jugo.png'} label={'BEBIDAS'} href={'/menu/bebidas'} />
                 </div>
             </div>
 

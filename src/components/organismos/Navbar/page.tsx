@@ -14,7 +14,8 @@ const Page = ({ onMenuClick }: openSidebar) => {
             </button>
 
             <div className=' flex justify-center items-center gap-2'>
-                <img src="/logo.png" alt="logo del restaurante" width={40} height={40} />
+                <a href="/pruebas"><img src="/logo.png" alt="logo del restaurante" width={40} height={40} /></a>
+
                 <h1 className='text-black font-bold text-2xl'>Bomba Sabor</h1>
             </div>
 

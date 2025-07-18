@@ -20,8 +20,8 @@ const Page = () => {
       <div className=' flex justify-center font-bold'><SmallText text={'Promociones'} /></div>
       <div className=' flex flex-row justify-around items-center'>
         <div className=' flex flex-col justify-center '>
-          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
-            <SmallText text={'Hamburguesa + papas + Cocacolar'} />
+          <Basecard imagen={'/promo.png'} title={'imagen combo'} >
+            <SmallText text={'Hamburguesa + papas + Cocacola'} />
             <div className=' flex flex-row justify-around items-center font-bold'>
               <SmallText text={'$25000'} />
               <div className=' w-25'>
@@ -33,7 +33,7 @@ const Page = () => {
 
 
         <div className=' flex flex-col justify-center '>
-          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
+          <Basecard imagen={'/promo.png'} title={'imagen combo'} >
             <SmallText text={'Hamburguesa + papas + Cocacolar'} />
             <div className=' flex flex-row justify-around items-center font-bold'>
               <SmallText text={'$25000'} />
@@ -45,7 +45,7 @@ const Page = () => {
         </div>
 
         <div className=' flex flex-col justify-center '>
-          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
+          <Basecard imagen={'/promo.png'} title={'imagen combo'} >
             <SmallText text={'Hamburguesa + papas + Cocacolar'} />
             <div className=' flex flex-row justify-around items-center font-bold'>
               <SmallText text={'$25000'} />
@@ -59,8 +59,8 @@ const Page = () => {
 
       <div className=' flex flex-row justify-around items-center mt-10'>
         <div className=' flex flex-col justify-center '>
-          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
-            <SmallText text={'Hamburguesa + papas + Cocacolar'} />
+          <Basecard imagen={'/promo.png'} title={'imagen combo'} >
+            <SmallText text={'Hamburguesa + papas + Cocacola'} />
             <div className=' flex flex-row justify-around items-center font-bold'>
               <SmallText text={'$25000'} />
               <div className=' w-25'>
@@ -72,8 +72,8 @@ const Page = () => {
 
 
         <div className=' flex flex-col justify-center '>
-          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
-            <SmallText text={'Hamburguesa + papas + Cocacolar'} />
+          <Basecard imagen={'/promo.png'} title={'imagen combo'} >
+            <SmallText text={'Hamburguesa + papas + Cocacola'} />
             <div className=' flex flex-row justify-around items-center font-bold'>
               <SmallText text={'$25000'} />
               <div className=' w-25'>
@@ -84,8 +84,8 @@ const Page = () => {
         </div>
 
         <div className=' flex flex-col justify-center '>
-          <Basecard imagen={'/jugo.png'} title={'jugo imagen'} >
-            <SmallText text={'Hamburguesa + papas + Cocacolar'} />
+          <Basecard imagen={'/promo.png'} title={'imagen combo'} >
+            <SmallText text={'Hamburguesa + papas + Cocacola'} />
             <div className=' flex flex-row justify-around items-center font-bold'>
               <SmallText text={'$25000'} />
               <div className=' w-25'>
