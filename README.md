@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Integrantes: Juan Sebastián Lopera · Alejandro Guerra · Brayan Flórez
 
-## Getting Started
+Enlace a Vercel: https://sistemarestauranteequipo5-gestiones.vercel.app/ 
 
-First, run the development server:
+En esta presentación del proyecto final de Gestión de Restaurante, mostramos el desarrollo completo de nuestro aplicativo, enfocado principalmente en el apartado front-end. Para su diseño, partimos de interfaces gráficas elaboradas inicialmente en Figma. En esta herramienta, combinamos dos modelos diferentes para crear uno solo, que luego implementamos en el producto final.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Proceso de trabajo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Antes de iniciar el desarrollo, establecimos reuniones semanales para coordinar tareas y avanzar de forma colaborativa. Investigamos y nos capacitamos en el uso de branches y commits, lo que permitió organizar el trabajo de cada integrante. Cada miembro fue responsable de una página específica, realizando avances y mejoras tanto en la estructura (átomos) como en la interfaz.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Descripción del aplicativo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Login: Para la autenticación, nos basamos en recursos de Chadcn como guía. Adaptamos su código a las necesidades de nuestro restaurante, logrando una versión organizada y funcional. Actualmente se utiliza un usuario fijo de forma interactiva, pero se puede integrar fácilmente un sistema de usuarios real.
 
-## Learn More
+Página principal: Ofrece múltiples opciones para que el usuario explore promociones y eventos. Incluye un menú tipo “hamburguesa” para acceder a la carta y demás secciones de interés. Además, muestra los horarios de atención y cuenta con un carrito de compras visible en la esquina superior derecha, donde se pueden revisar los productos seleccionados.
 
-To learn more about Next.js, take a look at the following resources:
+Categorías: Muestra los diferentes productos del restaurante. Aunque por defecto aparecen bebidas, esta sección es adaptable a cualquier tipo de producto. Al seleccionar un artículo, se despliega información detallada como nombre, precio, descripción y opción de compra.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Promociones: Página sencilla pero clave para mostrar las ofertas vigentes y facilitar su adquisición.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Eventos: Espacio informativo donde se publican noticias o artículos sobre los próximos eventos del restaurante.
 
-## Deploy on Vercel
+Carrito: Aquí se visualizan los productos seleccionados, junto con las cantidades y el cálculo dinámico de precios, dependiendo de la cantidad elegida.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Aspectos técnicos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para el desarrollo, instalamos herramientas como Iconify para la gestión de íconos y Tailwind CSS para los estilos. Trabajamos con TypeScript y recursos de Chadcn. Organizamos el proyecto en carpetas que agrupan las páginas dinámicas y los componentes reutilizables. Configuramos variables globales basadas en la paleta de colores definida en los mockups de Figma.
+
+Siguiendo la metodología Atomic Design, creamos átomos como botones y tarjetas personalizadas, que luego se integraron en organismos más complejos, como la barra lateral (sidebar) y la navegación principal. Es importante destacar que, a medida que avanzaba el proyecto, realizamos ajustes necesarios para optimizar la funcionalidad y la experiencia de usuario.
